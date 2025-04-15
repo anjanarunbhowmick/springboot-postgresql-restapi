@@ -2,7 +2,7 @@
 This is a demo project for Spring Boot API with PostgreSQL
 
 ### API Details ###
-** Update employee resource **
+* Update employee resource *
 /api/v1/employees/{id} - * PUT *
 ** Delete employee resource **
 /api/v1/employees/{id} - * DELETE *
