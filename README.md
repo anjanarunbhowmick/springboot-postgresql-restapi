@@ -2,19 +2,19 @@
 This is a demo project for Spring Boot API with PostgreSQL
 
 ### API Details ###
-**Update employee resource**
-/api/v1/employees/{id} - * PUT *
-** Delete employee resource **
-/api/v1/employees/{id} - * DELETE *
-** Create a new phone number for an employee **
-/api/v1/employees/phone - * POST *
-** Update a phone number for an employee **
-/api/v1/employees/phone/{id} - * PUT *
-** Delete a phone number for an employee **
-/api/v1/employees/phone/{id} - * DELETE *
+**Update employee resource** <br>
+/api/v1/employees/{id} - *PUT* <br>
+**Delete employee resource** <br>
+/api/v1/employees/{id} - *DELETE* <br>
+**Create a new phone number for an employee** <br>
+/api/v1/employees/phone - *POST*<br>
+**Update a phone number for an employee**<br>
+/api/v1/employees/phone/{id} - *PUT*<br>
+**Delete a phone number for an employee**<br>
+/api/v1/employees/phone/{id} - *DELETE*
 
 ### Important Point ###
-** Install Docker and execute below commands to install PostgreSQL DB **
+**Install Docker and execute below commands to install PostgreSQL DB**
 - docker pull postgres
 - docker run -d --name mypostgres -p 5432:5432 -e POSTGRES_PASSWORD=<yourpassword> postgres
 - docker exec -it mypostgres bash
